@@ -4,10 +4,7 @@
 **What's new?**
 * Database postgresql
 * Static pages
-
-**Installed gems**
-* Bootstrap
-* jQuery
+  * Home page
 
 <br>
 
@@ -15,7 +12,9 @@
 **Що додано**
 * База даних postgresql
 * Статичні сторінки
+  * Головна сторінка
 
-**Встановлені геми**
+**Gems**
 * Bootstrap
 * jQuery
+* Font-awesome
