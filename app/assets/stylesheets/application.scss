@@ -140,7 +140,30 @@ footer {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);}
+  transform: translate(-50%, -50%);
+}
+
+/* About Title */
+#title-about-page {color: #EBF9F6;
+  background-image: url("main_header_bg.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+/* About Call-to-action */
+#block-action {height: 100vh; color: #EBF9F6;
+  background-image: url("call-to-action.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+#block-action .display-4 {
+  font-size: 3.5rem; letter-spacing: 0.5px;
+}
+#block-action .lead {
+  font-size: 2rem; margin-bottom: 2rem;
+}
 
 /* Media Query */
 @media (max-width: 575.98px) {

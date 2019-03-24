@@ -5,6 +5,7 @@
 * Database postgresql
 * Static pages
   * Home page
+  * About page
 
 <br>
 
@@ -13,6 +14,7 @@
 * База даних postgresql
 * Статичні сторінки
   * Головна сторінка
+  * Сторінка Про нас
 
 **Gems**
 * Bootstrap
