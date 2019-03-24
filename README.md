@@ -7,6 +7,7 @@
   * Home page
   * About page
   * Services page
+  * Contacts page
 
 <br>
 
@@ -17,6 +18,7 @@
   * Головна сторінка
   * Сторінка Про нас
   * Сторінка послуг
+  * Контактна сторінка
 
 **Gems**
 * Bootstrap
