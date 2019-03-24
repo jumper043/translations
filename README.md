@@ -6,6 +6,7 @@
 * Static pages
   * Home page
   * About page
+  * Services page
 
 <br>
 
@@ -15,6 +16,7 @@
 * Статичні сторінки
   * Головна сторінка
   * Сторінка Про нас
+  * Сторінка послуг
 
 **Gems**
 * Bootstrap

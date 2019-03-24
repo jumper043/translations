@@ -158,11 +158,22 @@ footer {
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
+
 #block-action .display-4 {
   font-size: 3.5rem; letter-spacing: 0.5px;
 }
+
 #block-action .lead {
   font-size: 2rem; margin-bottom: 2rem;
+}
+
+/* Services */
+.bg-services {
+  background-color: #09142f;
+}
+
+.text-services {
+  color: #a2afcb;
 }
 
 /* Media Query */
