@@ -11,22 +11,25 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title %>
+  <div class="form-group">
+    <%= form.text_field :title, placeholder: 'Post title', class: 'form-control form-control-lg' %>
   </div>
 
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_area :description %>
+  <div class="form-group">
+    <%= form.text_area :description, placeholder: 'Post description', class: 'form-control form-control-lg' %>
   </div>
 
-  <div class="field">
-    <%= form.label :content %>
-    <%= form.text_area :content %>
+  <div class="form-group">
+    <%= form.text_area :content, class: 'form-control form-control-lg' %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
+  <div class="form-group mb-5">
+    <label>Upload photo</label>
+    <p><%= image_tag(@post.image_url(:media)) if @post.image? %></p>
+    <%= form.file_field :image, class: 'form-control-file' %>
+    <%= form.hidden_field :image_cache %>
   </div>
+
+  <%= form.submit class: 'btn btn-lg btn-primary mb-5' %>
+
 <% end %>

@@ -42,6 +42,9 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 # Font-awesome 5 gem
 gem 'font-awesome-sass', '~> 5.6.1'
+# Gem for uploading items to project
+gem 'carrierwave', '~> 1.3', '>= 1.3.1'
+gem 'mini_magick', '~> 4.9', '>= 4.9.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -55,6 +58,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # For better visualise of errors
+  gem 'better_errors', '~> 2.5', '>= 2.5.1'
 end
 
 

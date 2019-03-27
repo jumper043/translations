@@ -1,31 +1,52 @@
-<p id="notice"><%= notice %></p>
+<!-- Title -->
+<header class="mt-78">
+  <div class="jumbotron jumbotron-fluid" id="title-about-page">
+    <div class="container text-center">
+      <h1 class="display-4">All Posts</h1>
+      <p class="lead">Interesting to know</p>
+    </div>
+  </div>
+</header>
 
-<h1>Posts</h1>
+<div class="container-fluid">
+  <p class="notice"> <%= notice %> </p>
+  <!-- Start row -->
+  <p> <%= link_to 'New Post', new_post_path, class: 'btn btn-success' %> </p>
+  <hr>
+  <div class="row">
+    <!-- Left column -->
+    <div class="col-lg-8 mb-9 mb-lg-0">
+      <div class="row">
+        <!-- Start post card -->
+        <% @posts.each do |post| %>
+        <article class="card col-md-6 border-0 p-0">
+          <div class="card-body mb-4">
+            <div class="mb-4">
+              <%= link_to post do %>
+                <%= image_tag(post.image_url(:thumb), class: 'img-fluid rounded') if post.image? %>
+              <% end %>
+            </div>
+            <small class="d-block text-secondary mb-2">
+              <%= post.created_at.strftime("%B %d, %Y") %>
+            </small>
+            <h2 class="h3 mb-4">
+              <%= link_to post.title, post %>
+            </h2>
+            <p> <%= post.description %> </p>
+          </div>
+        </article>
+        <% end %>
+        <!-- End post card -->
+      </div>
+    </div>
+    <!-- End left column -->
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Content</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @posts.each do |post| %>
-      <tr>
-        <td><%= post.title %></td>
-        <td><%= post.description %></td>
-        <td><%= post.content %></td>
-        <td><%= link_to 'Show', post %></td>
-        <td><%= link_to 'Edit', edit_post_path(post) %></td>
-        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Post', new_post_path %>
+    <!-- Right column -->
+    <div class="col-lg-4">
+      <%= render 'shared/right-column' %>
+    </div>
+    <!-- End right column -->
+    </div>
+    <!-- End row -->
+</div>
+<!-- End container -->
