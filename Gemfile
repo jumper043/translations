@@ -42,9 +42,12 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 # Font-awesome 5 gem
 gem 'font-awesome-sass', '~> 5.6.1'
-# Gem for uploading items to project
+# Gems for uploading items to project
 gem 'carrierwave', '~> 1.3', '>= 1.3.1'
 gem 'mini_magick', '~> 4.9', '>= 4.9.3'
+# Pagination library with bootstrap integrated
+gem 'will_paginate-bootstrap4'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

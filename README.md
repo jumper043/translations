@@ -9,6 +9,7 @@
   * Services page
   * Contacts page
 * Blog
+ * Pagination
 
 <br>
 
@@ -21,6 +22,7 @@
   * Сторінка послуг
   * Контактна сторінка
 * Блог
+ * Пагінація
 
 **Gems**
 * Bootstrap
@@ -29,3 +31,4 @@
 * CarrierWave
 * MiniMagick
 * better_errors
+* will_paginate
