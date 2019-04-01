@@ -46,7 +46,7 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'carrierwave', '~> 1.3', '>= 1.3.1'
 gem 'mini_magick', '~> 4.9', '>= 4.9.3'
 # Pagination library with bootstrap integrated
-gem 'will_paginate-bootstrap4'
+# gem 'will_paginate-bootstrap4'
 # Pagination gem
 gem 'kaminari'
 
