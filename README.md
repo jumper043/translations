@@ -31,4 +31,4 @@
 * CarrierWave
 * MiniMagick
 * better_errors
-* will_paginate
+* will_paginate or kaminari

@@ -37,10 +37,10 @@
         </article>
         <% end %>
         <!-- End post card -->
-        <!-- Will paginate -->
-        <div class="mx-auto mt-5 mb-5">
-          <%= will_paginate @posts %>
-        </div>
+      </div>
+      <!-- Kaminari -->
+      <div class="d-flex justify-content-center mt-5">
+        <%= paginate @posts %>
       </div>
     </div>
     <!-- End left column -->
