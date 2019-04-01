@@ -49,6 +49,8 @@ gem 'mini_magick', '~> 4.9', '>= 4.9.3'
 # gem 'will_paginate-bootstrap4'
 # Pagination gem
 gem 'kaminari'
+# WYSIWYG text editor
+gem 'tinymce-rails', '~> 5.0', '>= 5.0.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

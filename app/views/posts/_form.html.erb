@@ -11,18 +11,23 @@
     </div>
   <% end %>
 
+  <!-- Title -->
   <div class="form-group">
     <%= form.text_field :title, placeholder: 'Post title', class: 'form-control form-control-lg' %>
   </div>
 
+  <!-- Description -->
   <div class="form-group">
     <%= form.text_area :description, placeholder: 'Post description', class: 'form-control form-control-lg' %>
   </div>
 
+  <!-- Form for content using text editor TinyMCE -->
   <div class="form-group">
-    <%= form.text_area :content, class: 'form-control form-control-lg' %>
+    <%= form.text_area :content, class: 'tinymce', rows: 20 %>
+    <%= tinymce %>
   </div>
 
+  <!-- Adding an image -->
   <div class="form-group mb-5">
     <label>Upload photo</label>
     <p><%= image_tag(@post.image_url(:media)) if @post.image? %></p>
@@ -30,6 +35,7 @@
     <%= form.hidden_field :image_cache %>
   </div>
 
+  <!-- Submit button -->
   <%= form.submit class: 'btn btn-lg btn-primary mb-5' %>
 
 <% end %>

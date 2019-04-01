@@ -32,3 +32,4 @@
 * MiniMagick
 * better_errors
 * ~~will_paginate~~ kaminari
+* TinyMCE
