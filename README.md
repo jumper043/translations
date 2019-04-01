@@ -9,7 +9,7 @@
   * Services page
   * Contacts page
 * Blog
- * Pagination
+  * Pagination
 
 <br>
 
@@ -22,7 +22,7 @@
   * Сторінка послуг
   * Контактна сторінка
 * Блог
- * Пагінація
+  * Пагінація
 
 **Gems**
 * Bootstrap
