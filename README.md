@@ -10,6 +10,7 @@
   * Contacts page
 * Blog
   * Pagination
+  * Text editor
 
 <br>
 
@@ -23,6 +24,7 @@
   * Контактна сторінка
 * Блог
   * Пагінація
+  * Текстовий редактор
 
 **Gems**
 * Bootstrap
