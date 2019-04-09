@@ -9,3 +9,5 @@ menubar:
   false
 browser_spellcheck:
   true
+branding:
+  false
