@@ -11,6 +11,7 @@
 * Blog
   * Pagination
   * Text editor
+  * Link optimization
 
 <br>
 
@@ -25,6 +26,7 @@
 * Блог
   * Пагінація
   * Текстовий редактор
+  * Оптимізація посилань
 
 **Gems**
 * Bootstrap
@@ -35,3 +37,4 @@
 * better_errors
 * ~~will_paginate~~ kaminari
 * TinyMCE
+* friendly_id
