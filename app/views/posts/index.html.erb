@@ -39,6 +39,8 @@
               <%= link_to post_path(post, anchor: 'list-comment'), class: 'icon-comment-block' do %>
                 <%= icon('far', 'comment-alt') %> <%= post.comments.count %>
               <% end %>
+              <!-- Post views counter -->
+              <span class="icon-comment-block ml-3"><%= icon('far', 'eye') %> <%= post.hits %></span>
             </div>
             <!-- End Comments icon -->
           </div>

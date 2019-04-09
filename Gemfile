@@ -53,6 +53,8 @@ gem 'kaminari'
 gem 'tinymce-rails', '~> 5.0', '>= 5.0.2'
 # gem to create pretty URLs
 gem 'friendly_id', '~> 5.2.4'
+# A gem for page views counter
+gem "punching_bag"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

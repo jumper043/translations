@@ -3,7 +3,10 @@
   <div class="jumbotron jumbotron-fluid" id="title-about-page">
     <div class="container text-center">
       <h1 class="display-4"><%= @post.title %></h1>
-      <p class="lead mt-5">Category | <%= @post.created_at.strftime("%B %d, %Y") %></p>
+      <p class="lead mt-5">
+        Admin | <%= @post.created_at.strftime("%B %d, %Y") %> |
+        <%= icon('far', 'eye') %> <%= @post.hits %>
+      </p>
     </div>
   </div>
 </header>
