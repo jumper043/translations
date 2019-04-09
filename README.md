@@ -13,6 +13,7 @@
   * Text editor
   * Link optimization
   * Comments
+  * Page views counter
 
 <br>
 
@@ -29,6 +30,7 @@
   * Текстовий редактор
   * Оптимізація посилань
   * Коментарі
+  * Відстежувач кількості переглядів сторінки
 
 **Gems**
 * Bootstrap
