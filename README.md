@@ -12,6 +12,7 @@
   * Pagination
   * Text editor
   * Link optimization
+  * Comments
 
 <br>
 
@@ -27,6 +28,7 @@
   * Пагінація
   * Текстовий редактор
   * Оптимізація посилань
+  * Коментарі
 
 **Gems**
 * Bootstrap

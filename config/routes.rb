@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  resources :posts
+  resources :posts do
+    resources :comments
+  end
+
   root 'static_pages#home'
   get 'static_pages/home'
   get 'static_pages/about'

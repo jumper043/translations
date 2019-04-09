@@ -33,9 +33,18 @@
               <%= link_to post.title, post %>
             </h2>
             <p> <%= post.description %> </p>
+            <hr>
+            <!-- Comments icon -->
+            <div>
+              <%= link_to post_path(post, anchor: 'list-comment'), class: 'icon-comment-block' do %>
+                <%= icon('far', 'comment-alt') %> <%= post.comments.count %>
+              <% end %>
+            </div>
+            <!-- End Comments icon -->
           </div>
         </article>
         <% end %>
+
         <!-- End post card -->
       </div>
       <!-- Kaminari -->
