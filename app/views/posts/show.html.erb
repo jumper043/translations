@@ -33,9 +33,9 @@
       <div class="mb-5">
         <h2 id="list-comment">
           <% if @post.comments.count % 10 == 1 && @post.comments.count != 11 %>
-          <%= @post.comments.count %> Comment
+            <%= @post.comments.count %> Comment
           <% else %>
-          <%= @post.comments.count %> Comments
+            <%= @post.comments.count %> Comments
           <% end %>
         </h2>
         <%= render @post.comments %>
