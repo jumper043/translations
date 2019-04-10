@@ -17,9 +17,13 @@
   <hr class="mb-5 mt-5 border-top">
 
   <p class="h4 mb-4 text-warning">Tags</p>
+    <% tags_name do |tag| %>
+      <%= link_to tag.name, tag_path(tag.name), class: 'btn btn-secondary text-uppercase mb-2' %>
+    <% end %>
   <hr class="mb-5 mt-5 border-top">
 
   <p class="h4 mb-4 text-warning">Contacts</p>
+
   <p><strong>ProLingua</strong> providing high quality, professional translation services for over 15 years. </p>
 
   <div class="media mb-4">
@@ -42,5 +46,6 @@
     <div class="media-body align-self-center">
       (123) 456 457 876
     </div>
+
   </div>
 </div>

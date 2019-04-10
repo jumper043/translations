@@ -35,6 +35,11 @@
     <%= form.hidden_field :image_cache %>
   </div>
 
+  <!-- Adding tags -->
+  <div class="form-group">
+    <%= form.text_field :all_tags, placeholder: 'Add tags', class: 'form-control form-control-lg' %>
+  </div>
+
   <!-- Submit button -->
   <%= form.submit class: 'btn btn-lg btn-primary mb-5' %>
 

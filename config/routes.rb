@@ -3,6 +3,8 @@ Rails.application.routes.draw do
     resources :comments
   end
 
+  resources :tags, only: [:show]
+
   root 'static_pages#home'
   get 'static_pages/home'
   get 'static_pages/about'

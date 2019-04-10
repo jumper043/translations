@@ -14,6 +14,7 @@
   * Link optimization
   * Comments
   * Page views counter
+  * Tags
 
 <br>
 
@@ -31,7 +32,8 @@
   * Оптимізація посилань
   * Коментарі
   * Відстежувач кількості переглядів сторінки
-
+  * Теги
+  
 **Gems**
 * Bootstrap
 * jQuery
