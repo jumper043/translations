@@ -4,7 +4,7 @@
     <div class="container text-center">
       <h1 class="display-4">Tag: <%= @tag.name %></h1>
       <p class="tag-page-blog">
-        <%= link_to 'Home', home_path, class: 'btn-link-tag' %> /
+        <%= link_to 'Home', static_pages_home_path, class: 'btn-link-tag' %> /
         <%= link_to 'All posts', posts_path, class: 'btn-link-tag' %> /
         <span>TAG: <%= @tag.name %></span>
       </p>
