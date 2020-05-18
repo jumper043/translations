@@ -44,3 +44,5 @@
 * ~~will_paginate~~ kaminari
 * TinyMCE
 * friendly_id
+
+There are no new changes on this page
